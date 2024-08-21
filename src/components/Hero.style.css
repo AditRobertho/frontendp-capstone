@@ -1,0 +1,67 @@
+.hero {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #495e57;
+  padding: 5rem;
+}
+.hero__content {
+  display: inherit;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 2rem;
+  width: 60%;
+}
+.hero__profile {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: 80%;
+}
+.hero__profile h1,
+.hero__profile h4,
+.hero__profile p {
+  margin: 0;
+}
+.hero__profile h1 {
+  font-size: 5rem;
+  color: #f4ce15;
+  font-family: "Markazi text";
+  font-weight: 500;
+}
+.hero__profile h4 {
+  font-size: 3.5rem;
+  color: #fff;
+  font-family: "Markazi text";
+  font-weight: 400;
+}
+.hero__profile p {
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+.hero__profile button {
+  background-color: #f4ce15;
+  border: none;
+  border-radius: 0.9rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 20rem;
+  height: 5rem;
+  margin-top: 4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.hero__profile button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+img {
+  height: 28rem;
+  width: 40rem;
+  object-fit: cover;
+}

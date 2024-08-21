@@ -1,0 +1,41 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 8rem;
+}
+
+.logo {
+  width: 19rem;
+  height: 5rem;
+  padding: 2rem;
+}
+
+.nav-container h4 {
+  color: #f4ce14;
+  font-size: 2.5rem;
+}
+
+nav {
+  display: inherit;
+  font-size: 2rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+li a:hover,
+li a:focus {
+  text-shadow: 0 0 2px #495e57;
+  color: #f4ce14;
+}
