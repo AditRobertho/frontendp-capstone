@@ -4,7 +4,8 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 // page import file
 import HomePage from "./pages/HomePage";
-import BookingForm from "./components/BookingForm";
+import BookingPage from "./pages/BookingPage";
+import ConfirmedBooking from "./components/ConfirmedBooking";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/reservations" element={<BookingForm />} />
+          <Route path="/reservations" element={<BookingPage />} />
+          <Route path="/confirmation" element={<ConfirmedBooking />} />
         </Routes>
       </BrowserRouter>
     </>
